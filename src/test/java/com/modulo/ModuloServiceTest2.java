@@ -16,8 +16,6 @@ import org.testng.annotations.Test;
 
 @SpringBootTest(classes = ApplicationInitializer.class)
 class ModuloServiceTest2 extends AbstractTestNGSpringContextTests {
-
-	
 	@Autowired
 	private WebApplicationContext webApplicationContext;
 
