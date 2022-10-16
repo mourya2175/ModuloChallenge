@@ -18,7 +18,6 @@ import org.testng.annotations.Test;
 class ModuloServiceTest2 extends AbstractTestNGSpringContextTests {
 	@Autowired
 	private WebApplicationContext webApplicationContext;
-
 	private MockMvc mockMvc;
 	
 	@BeforeClass
